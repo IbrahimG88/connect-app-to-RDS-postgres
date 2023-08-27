@@ -1,0 +1,22 @@
+{
+  "name": "basic-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js --watch"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.14.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.2.0"
+  }
+}
