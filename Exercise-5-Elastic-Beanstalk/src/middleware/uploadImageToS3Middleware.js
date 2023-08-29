@@ -4,10 +4,10 @@ import multerS3 from "multer-s3";
 
 const s3 = new S3Client({
   credentials: {
-    accessKeyId: "AKIAY2KG3OVHX5SKTZEM",
-    secretAccessKey: "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",
+    accessKeyId:,
+    secretAccessKey: ,
   },
-  region: "us-east-1",
+  region: ,
 });
 
 const s3Storage = multerS3({
